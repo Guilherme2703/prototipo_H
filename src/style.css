@@ -7503,4 +7503,12 @@ progress {
   color: #F2003B;
   border-bottom: solid 4px #F2003B;
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    padding: 24px 0;
+    align-items: center;
+    gap: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */

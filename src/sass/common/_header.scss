@@ -40,3 +40,10 @@
     transition: .2s;
 }
 
+@media (max-width: 768px){
+    .navbar-nav{
+        padding: 24px 0;
+        align-items: center;
+        gap: 15px;
+    }
+}

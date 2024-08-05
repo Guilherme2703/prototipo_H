@@ -23,7 +23,7 @@
             </div>
 
             <nav class="navbar navbar-expand-md navbar-light">
-                <div>
+                <div class="container px-0">
                   
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,12 +34,17 @@
                                 <a class="nav-link px-0" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-0 mx-3" href="#">Features</a>
+                                <a class="nav-link px-0 mx-md-3" href="#">Features</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-0" href="#">Pricing</a>
                             </li>
                         </ul>
+                  </div>
+                  <div class="d-flex align-items-center">
+                        <i class="bi bi-currency-dollar">0,00</i>
+                        <p class="mb-0 mx-3">0 itens</p>
+                        <a href="#"><i class="bi bi-bag-plus-fill"></i></a>
                   </div>
                 </div>
             </nav>
