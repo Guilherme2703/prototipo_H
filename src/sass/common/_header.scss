@@ -1,0 +1,20 @@
+.search-area{
+    border-radius: 7px;
+}
+.search-area, .search-area input{
+    background-color: $neutra01;
+    border: none;
+    color: $neutra04;
+    width: 100%;
+}
+
+.search-area input::placeholder{
+    color: $neutra03;
+}
+
+.search-area i{
+    color: $neutra04;
+}
+.search-area input:focus{
+    outline: none;
+}
