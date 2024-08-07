@@ -39,6 +39,14 @@
     border-bottom: solid 4px $primary;
     transition: .2s;
 }
+.container .bi{
+    color: $neutra04;
+}
+
+.bi-bag-plus-fill:hover{
+    color: $primary;
+    transition: .2s;
+}
 
 @media (max-width: 768px){
     .navbar-nav{

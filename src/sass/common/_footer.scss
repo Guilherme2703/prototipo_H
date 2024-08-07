@@ -1,0 +1,16 @@
+.footer{
+    background-color: $dark03;
+    padding: 40px 0;
+    & h4{
+        color: $neutra04;
+    }
+
+    & a, & i, & p {
+        color: $neutra01;
+        text-decoration: none;
+    }
+
+    & hr{
+        color: $neutra05;
+    }
+}

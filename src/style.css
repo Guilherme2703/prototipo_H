@@ -7505,10 +7505,33 @@ progress {
   transition: 0.2s;
 }
 
+.container .bi {
+  color: #939496;
+}
+
+.bi-bag-plus-fill:hover {
+  color: #F2003B;
+  transition: 0.2s;
+}
+
 @media (max-width: 768px) {
   .navbar-nav {
     padding: 24px 0;
     align-items: center;
     gap: 15px;
   }
+}
+.footer {
+  background-color: #28191D;
+  padding: 40px 0;
+}
+.footer h4, .footer .h4 {
+  color: #939496;
+}
+.footer a, .footer i, .footer p {
+  color: #F2F2F5;
+  text-decoration: none;
+}
+.footer hr {
+  color: #3D4043;
 }/*# sourceMappingURL=style.css.map */
