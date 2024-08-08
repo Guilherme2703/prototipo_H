@@ -7464,7 +7464,7 @@ progress {
 .search-area, .search-area input {
   background-color: #F2F2F5;
   border: none;
-  color: #939496;
+  color: #787878;
   width: 100%;
 }
 
@@ -7477,7 +7477,7 @@ progress {
 }
 
 .search-area i {
-  color: #939496;
+  color: #787878;
 }
 
 .search-area input:focus {
@@ -7506,7 +7506,7 @@ progress {
 }
 
 .container .bi {
-  color: #939496;
+  color: #787878;
 }
 
 .bi-bag-plus-fill:hover {
@@ -7526,12 +7526,26 @@ progress {
   padding: 40px 0;
 }
 .footer h4, .footer .h4 {
-  color: #939496;
+  color: #787878;
+  font-size: 14px;
+  font-weight: 600;
 }
 .footer a, .footer i, .footer p {
   color: #F2F2F5;
   text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
 }
 .footer hr {
   color: #3D4043;
+}
+.footer h6, .footer .h6 {
+  color: #787878;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footer a:hover, .footer i:hover {
+  color: #F2003B;
+  text-shadow: 0px 2px 5px #F2003B;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
