@@ -25,7 +25,7 @@
     }
     & a:hover, & i:hover{
         color: $primary;
-        text-shadow: 0px 2px 5px #F2003B;
+        text-shadow: 0px 2px 5px $primary;
         transition: .3s;
     }
 }

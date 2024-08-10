@@ -9,35 +9,31 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/lixadeira-ferro.jpg" class="d-block w-100 img-carousel" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Hender,<br>seu parceiro na construção!</h2>
-                  <a href="#">Ver mais</a>
+                    <div class="container">
+                        <h2>Hender,<br>seu parceiro na construção!</h2>
+                        <a href="#">Ver mais</a>
+                    </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="img/lixadeira-madeira.jpg" class="d-block w-100 img-carousel" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Ferramentas que constroem <br> seus sonhos!</h2>
-                  <a href="#">Ver mais</a>
+                    <div class="container">
+                        <h2>Ferramentas que constroem <br> seus sonhos!</h2>
+                        <a href="#">Ver mais</a>
+                    </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="img/broca.jpg" class="d-block w-100 img-carousel" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Equipando suas ideias,<br>construindo seu futuro!</h2>
-                  <a href="#">Ver mais</a>
+                    <div class="container">
+                        <h2>Equipando suas ideias,<br>construindo seu futuro!</h2>
+                        <a href="#">Ver mais</a>
+                    </div>
+                  
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
     </section>
 
