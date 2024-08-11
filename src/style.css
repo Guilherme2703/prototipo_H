@@ -66,7 +66,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Poppins", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -7786,4 +7786,22 @@ progress {
   border-radius: 50%;
   background-color: #fc5c00;
   margin: 0 7px;
+}
+
+.btn-carousel {
+  background-color: rgba(244, 244, 244, 0.3019607843);
+  border-radius: 10px;
+  padding: 13px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: solid 2px #F2F2F5;
+  color: #F2F2F5;
+}
+
+.btn-carousel:hover {
+  border: solid 2px #F2F2F5;
+  color: #F2F2F5;
+  background-color: rgba(252, 92, 0, 0.4196078431);
+  box-shadow: rgba(100, 45, 0, 0.438) 0px 14px 55px, rgba(100, 45, 0, 0.438) 0px -10px 20px, rgba(100, 45, 0, 0.438) 0px 4px 6px, rgba(78, 35, 0, 0.438) 0px 12px 13px, rgba(58, 26, 0, 0.438) 0px -3px 5px;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
