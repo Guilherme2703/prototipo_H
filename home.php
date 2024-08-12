@@ -37,4 +37,17 @@
           </div>
     </section>
 
+    <section>
+        <div class="container my-5">
+            <h2>Novidades</h2>
+            <div class="underscore-title"></div>
+            <div class="row row-cols-1 row-cols-lg-4">
+                <?php for ($i = 0; $i < 4; $i++){
+                  require('includes/components/produto-item.php');
+                } 
+                ?>
+            </div>
+        </div>
+    </section>
+
 <?php require_once('includes/footer.php'); ?>

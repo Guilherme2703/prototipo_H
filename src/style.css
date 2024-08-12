@@ -7826,4 +7826,13 @@ progress {
   background-color: rgba(252, 92, 0, 0.4196078431);
   box-shadow: rgba(100, 45, 0, 0.438) 0px 14px 55px, rgba(100, 45, 0, 0.438) 0px -10px 20px, rgba(100, 45, 0, 0.438) 0px 4px 6px, rgba(78, 35, 0, 0.438) 0px 12px 13px, rgba(58, 26, 0, 0.438) 0px -3px 5px;
   transition: 0.3s;
+}
+
+.underscore-title {
+  width: 25px;
+  height: 1px;
+  background-color: #3D4043;
+  border: solid 2px #3D4043;
+  border-radius: 7px;
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
