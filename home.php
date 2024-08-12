@@ -9,7 +9,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <div class="container">
                         <h2 class="mb-5">Hender,<br>seu parceiro na construção!</h2>
                         <a href="#" class="btn-carousel">Ver mais</a>
@@ -17,7 +17,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <div class="container">
                         <h2 class="mb-5">Ferramentas que constroem <br> seus sonhos!</h2>
                         <a href="#" class="btn-carousel">Ver mais</a>
@@ -25,7 +25,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <div class="container">
                         <h2 class="mb-5">Equipando suas ideias,<br>construindo seu futuro!</h2>
                         <a href="#" class="btn-carousel">Ver mais</a>

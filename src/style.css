@@ -7788,6 +7788,28 @@ progress {
   margin: 0 7px;
 }
 
+@media (max-width: 992px) {
+  .carousel-home .carousel-item {
+    height: 400px;
+  }
+  .carousel-home .carousel-caption {
+    padding-top: 90px;
+  }
+  .carousel-home .carousel-caption h2, .carousel-home .carousel-caption .h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-home .carousel-item {
+    height: 350px;
+  }
+  .carousel-home .carousel-caption {
+    text-align: center;
+  }
+  .carousel-home .carousel-caption h2, .carousel-home .carousel-caption .h2 {
+    font-size: 36px;
+  }
+}
 .btn-carousel {
   background-color: rgba(244, 244, 244, 0.3019607843);
   border-radius: 10px;
