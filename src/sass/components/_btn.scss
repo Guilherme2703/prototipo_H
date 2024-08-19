@@ -6,12 +6,32 @@
     font-weight: 600;
     border: solid 2px $neutra01;
     color: $neutra01;
+    text-decoration: none;
     
 }
+
 .btn-carousel:hover{
     border: solid 2px $neutra01;
     color: $neutra01;
     background-color: #fc5c006b;
     box-shadow: rgba(100, 45, 0, 0.438) 0px 14px 55px, rgba(100, 45, 0, 0.438) 0px -10px 20px, rgba(100, 45, 0, 0.438) 0px 4px 6px, rgba(78, 35, 0, 0.438) 0px 12px 13px, rgba(58, 26, 0, 0.438) 0px -3px 5px;
+    transition: .3s;
+    text-decoration: none;
+}
+//Botão de Card
+
+.btn-card{
+    background-color: $neutra06;
+    color: $neutra01;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 32px;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.btn-card:hover{
+    background-color: $neutra05;
     transition: .3s;
 }

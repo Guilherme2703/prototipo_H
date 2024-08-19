@@ -1,0 +1,17 @@
+.produto-item .card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    height: 410px;
+}
+.produto-item h5{
+    color: $neutra06;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.produto-item p{
+    color: $neutra05;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
