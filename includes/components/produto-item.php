@@ -6,5 +6,5 @@
           <p class="card-text mt-3 mb-4">R$2,10</p>
           <a href="#" class="btn-card mt-2">Ver opções</a>
         </div>
-      </div>
+    </div>
 </div>

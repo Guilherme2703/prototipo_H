@@ -1,5 +1,6 @@
 <?php require_once('includes/header.php'); ?>
-
+    
+    <!-- carousel -->
     <section>
         <div id="carouselExampleCaptions" class="carousel slide carousel-home" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -37,6 +38,7 @@
           </div>
     </section>
 
+    <!-- Novidades -->
     <section>
         <div class="container my-5">
             <h2>Novidades</h2>
@@ -50,4 +52,17 @@
         </div>
     </section>
 
+    <!-- bg-image -->
+     <section>
+      <div class="bg-image">
+        <div class="bg-image-mask">
+          <div class="container">
+            <div class="bg-image-text">
+              <h2>Segurança na compra, no <br> seu conforto</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quibusdam voluptatibus inventore.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
 <?php require_once('includes/footer.php'); ?>
