@@ -7813,6 +7813,14 @@ progress {
   .carousel-home .carousel-caption h2, .carousel-home .carousel-caption .h2 {
     font-size: 36px;
   }
+  .bg-image-text {
+    width: 100%;
+  }
+}
+@media (max-width: 568px) {
+  .bg-image-text {
+    text-align: center;
+  }
 }
 .bg-image {
   background-image: url("../../../img/lixadeira-madeira.jpg");
@@ -7903,4 +7911,18 @@ progress {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
+}
+
+.card-categoria {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  height: 410px;
+}
+
+.badge-categoria {
+  position: relative;
+  left: 21%;
+  padding: 6px 21px;
+  color: #202124;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
