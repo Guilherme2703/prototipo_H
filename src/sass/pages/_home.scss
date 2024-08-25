@@ -1,3 +1,10 @@
+.text-gradient{
+    background-image: linear-gradient(to left, $primary, $primary, $primary, $primary, $primary, $primary, $primary, $dark03);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 //Carousel
 .carousel-home{
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
@@ -33,6 +40,52 @@
     margin: 0 7px;
 }
 
+//Novidades
+
+.novidades{
+    margin: 70px 0 100px 0;
+}
+
+
+// BG - Image
+
+.bg-image{
+    background-image: url("../../../img/lixadeira-madeira.jpg");
+    background-size: 100% 500px;
+    margin-bottom: 50px;
+}
+.bg-image-mask{
+    padding: 150px 0;
+    background-color: rgba(65, 64, 64, 0.459);
+}
+
+.bg-image-text{
+    width: 50%;
+    color: $neutra01;
+}
+
+.bg-image-text h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.bg-image-text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+// Categoria
+
+.categoria{
+    margin: 120px 0 100px 0;
+}
+
+//Promoção
+
+.promocao{
+    margin-bottom: 100px;
+}
+
+// Breakpoints
 @media(max-width:992px){
     .carousel-home .carousel-item{
         height: 400px;
@@ -68,30 +121,4 @@
     .bg-image-text{
         text-align: center;
     }
-}
-
-// BG - Image
-
-.bg-image{
-    background-image: url("../../../img/lixadeira-madeira.jpg");
-    background-size: 100% 500px;
-    margin-bottom: 50px;
-}
-.bg-image-mask{
-    padding: 150px 0;
-    background-color: rgba(65, 64, 64, 0.459);
-}
-
-.bg-image-text{
-    width: 50%;
-    color: $neutra01;
-}
-
-.bg-image-text h2 {
-    font-size: 28px;
-    font-weight: 600;
-}
-.bg-image-text p {
-    font-size: 16px;
-    font-weight: 400;
 }

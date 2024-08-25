@@ -7757,6 +7757,13 @@ progress {
   transition: 0.3s;
 }
 
+.text-gradient {
+  background-image: linear-gradient(to left, #fc5c00, #fc5c00, #fc5c00, #fc5c00, #fc5c00, #fc5c00, #fc5c00, #28191D);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .carousel-home {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
@@ -7792,6 +7799,44 @@ progress {
   margin: 0 7px;
 }
 
+.novidades {
+  margin: 70px 0 100px 0;
+}
+
+.bg-image {
+  background-image: url("../../../img/lixadeira-madeira.jpg");
+  background-size: 100% 500px;
+  margin-bottom: 50px;
+}
+
+.bg-image-mask {
+  padding: 150px 0;
+  background-color: rgba(65, 64, 64, 0.459);
+}
+
+.bg-image-text {
+  width: 50%;
+  color: #F2F2F5;
+}
+
+.bg-image-text h2, .bg-image-text .h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.bg-image-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.categoria {
+  margin: 120px 0 100px 0;
+}
+
+.promocao {
+  margin-bottom: 100px;
+}
+
 @media (max-width: 992px) {
   .carousel-home .carousel-item {
     height: 400px;
@@ -7822,32 +7867,6 @@ progress {
     text-align: center;
   }
 }
-.bg-image {
-  background-image: url("../../../img/lixadeira-madeira.jpg");
-  background-size: 100% 500px;
-  margin-bottom: 50px;
-}
-
-.bg-image-mask {
-  padding: 150px 0;
-  background-color: rgba(65, 64, 64, 0.459);
-}
-
-.bg-image-text {
-  width: 50%;
-  color: #F2F2F5;
-}
-
-.bg-image-text h2, .bg-image-text .h2 {
-  font-size: 28px;
-  font-weight: 600;
-}
-
-.bg-image-text p {
-  font-size: 16px;
-  font-weight: 400;
-}
-
 .btn-carousel {
   background-color: rgba(244, 244, 244, 0.3019607843);
   border-radius: 10px;
@@ -7910,6 +7929,30 @@ progress {
   color: #3D4043;
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
+}
+
+.img-promo {
+  width: 110px;
+}
+
+.tag-promo {
+  position: relative;
+  top: 19px;
+  margin-left: 0px;
+}
+
+.promocao-item .card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  height: 450px;
+}
+
+.promocao-item h5, .promocao-item .h5 {
+  text-align: center;
+}
+
+.promocao-item p {
   text-align: center;
 }
 
