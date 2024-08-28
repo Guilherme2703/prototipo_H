@@ -6,15 +6,20 @@ main{
     width: 230px;
 }
 
-
-
 .page-item .page-link{
     background-color: #F2F2F5;
     color: #CBCED1;
     margin: 0 5px;
     border-radius: 5px;
 }
+
 .page-item .page-link:hover{
     box-shadow: rgba(255, 102, 0, 0.767) 0px 7px 29px 0px;
     transition: 0.4;
+}
+
+@media(max-width: 992px){
+    .filtro-bloco{
+        flex-wrap: wrap;
+    }
 }

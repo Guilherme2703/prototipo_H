@@ -8864,6 +8864,11 @@ main {
   transition: 0.4;
 }
 
+@media (max-width: 992px) {
+  .filtro-bloco {
+    flex-wrap: wrap;
+  }
+}
 .btn-carousel {
   background-color: rgba(244, 244, 244, 0.3019607843);
   border-radius: 10px;

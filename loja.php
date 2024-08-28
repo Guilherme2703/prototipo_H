@@ -12,7 +12,7 @@
 
         <div class="container">
             <div class="row pb-5">
-                <div class="d-flex aling-items-center gap-4">
+                <div class="d-flex aling-items-center gap-4 filtro-bloco">
                     <div class="ordenacao">
                         <select class="form-select border-0">
                             <option selected>Ordenação padrão</option>
@@ -27,9 +27,9 @@
                         <ul class="pagination mb-0">
                         <li class="page-item"><a class="page-link bg-primary" href="#">1</a></li>
                         <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item d-none d-sm-inline-block"><a class="page-link" href="#">3</a></li>
                         <li class="page-item"><a class="page-link" href="#">...</a></li>
-                        <li class="page-item"><a class="page-link" href="#">7</a></li>
+                        <li class="page-item d-none d-sm-inline-block"><a class="page-link" href="#">7</a></li>
                         <li class="page-item"><a class="page-link" href="#">8</a></li>
                         <li class="page-item">
                             <a class="page-link" href="#" aria-label="Next">
