@@ -8970,4 +8970,58 @@ main {
   padding: 6px 21px;
   color: #202124;
   font-weight: 600;
+}
+
+.produto-item02 .card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  height: 520px;
+  background-color: #fff;
+}
+
+.produto-item02 h5, .produto-item02 .h5 {
+  color: #303134;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.produto-item02 p {
+  color: #3D4043;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.img-promo {
+  width: 110px;
+}
+
+.produto-item02 .card-img-top {
+  position: relative;
+  border-radius: 10px 10px 0 0;
+}
+
+.tag-promo {
+  position: relative;
+  top: 19px;
+  margin-left: 0px;
+}
+
+.promocao-item .card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  height: 450px;
+}
+
+.promocao-item h5, .promocao-item .h5 {
+  text-align: center;
+}
+
+.promocao-item p {
+  text-align: center;
+}
+
+.produto-item02 .btn-card {
+  margin-left: 30%;
 }/*# sourceMappingURL=style.css.map */
