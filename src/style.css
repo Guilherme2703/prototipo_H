@@ -8864,6 +8864,10 @@ main {
   transition: 0.4;
 }
 
+input[type=range]::-webkit-slider-runnable-track {
+  background-color: #fc5c00;
+}
+
 @media (max-width: 992px) {
   .filtro-bloco {
     flex-wrap: wrap;
