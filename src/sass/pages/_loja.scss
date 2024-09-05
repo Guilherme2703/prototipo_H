@@ -18,6 +18,23 @@ main{
     transition: 0.4;
 }
 
+.ordenacao .form-select{
+    padding: 12px;
+}
+
+.filtro-categoria h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.filtro-categoria a{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.filtro-bottom{
+    padding-bottom: 70px;
+}
 input[type=range]::-webkit-slider-runnable-track{
     background-color: $primary;
 }
