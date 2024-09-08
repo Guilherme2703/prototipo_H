@@ -8891,6 +8891,20 @@ input[type=range]::-webkit-slider-runnable-track {
     flex-wrap: wrap;
   }
 }
+.carousel-detalhe .carousel-indicators {
+  margin: 0 0 0 0;
+  bottom: -31%;
+}
+
+.carousel-detalhe .carousel-indicators [data-bs-target] {
+  width: 75%;
+  height: auto;
+}
+
+.bloco-carousel {
+  margin-bottom: 150px;
+}
+
 .btn-carousel {
   background-color: rgba(244, 244, 244, 0.3019607843);
   border-radius: 10px;
