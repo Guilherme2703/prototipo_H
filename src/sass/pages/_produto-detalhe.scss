@@ -12,3 +12,32 @@
 .bloco-carousel{
     margin-bottom: 150px;
 }
+
+.detalhe-makita{
+    display: flex;
+    flex-direction: column;
+    gap: 170px;
+}
+
+.detalhe-makita form select{
+    width: 210px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.detalhe-makita form input[type=number]{
+    width: 50px;
+    border: none;
+    border-radius: 7px;
+}
+
+@media(max-width: 992px){
+    .detalhe-makita{
+        gap: 35px;
+    }
+}
+@media(max-width: 470px){
+    .bloco-carousel{
+        margin-bottom: 110px;
+    }
+}
