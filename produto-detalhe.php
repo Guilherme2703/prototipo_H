@@ -67,6 +67,36 @@
                         </div>
                     </div>
                 </div>
+                <div class="row categoria-descricao gap-4 mt-5 mt-md-4">
+                    <div class="col-5">
+                        <div class="d-flex justify-content-between">
+                            <p>Descrição</p>
+                            <i class="bi bi-caret-right"></i>
+                        </div>
+                        <hr>
+                        <p class="text-muted">Informação adicional</p>
+                        <hr>
+                        <p class="text-muted">Avaliações (0)</p>
+                        <hr>
+                    </div>
+
+                    <div class="col-6">
+                        <h3 class="mb-3">Descrição</h3>
+                        <p class="text-muted">
+                            • Serra mármore
+                            <br>• Seu design compacto aliado ao baixo peso diminui a fadiga e proporciona ao operador mais tempo de trabalho
+                            <br>• Botão de segurança
+                            <br>• Gatilho do interruptor com capa anti poeira
+                            <br>• Guia de profundidade para ajuste de profundidade de corte
+                            <br>• Sistema de ventilação otimizado na extremidade traseira da caixa do motor para prevenir entrada de poeira e sujeira
+                            <br>• Utilizada para cortar todo o tipo de pedra, alvenaria, azulejos, tijolos entre muitas outras coisas                            
+                        </p>
+                    </div>
+
+                    <div class="col-6">
+
+                    </div>
+                </div>
             </div>
         </section>
 
