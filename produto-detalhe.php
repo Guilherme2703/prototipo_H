@@ -99,7 +99,19 @@
                 </div>
             </div>
         </section>
-
+        <!-- Relacionados -->
+         <section>
+            <div class="container relacionados-detalhe">
+                <h2>Produtos Relacionados</h2>
+                <div class="underscore-title"></div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-5">
+                    <?php for ($i = 0; $i < 4; $i++){
+                      require('includes/components/produto-item.php');
+                    } 
+                    ?>
+                </div>
+            </div>
+         </section>
     </main>
 
 <?php require_once('includes/footer.php'); ?>

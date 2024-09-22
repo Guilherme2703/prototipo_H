@@ -8923,9 +8923,27 @@ input[type=range]::-webkit-slider-runnable-track {
   border-radius: 7px;
 }
 
+.categoria-descricao p {
+  font-size: 16px;
+}
+
+.categoria-descricao h3, .categoria-descricao .h3 {
+  font-size: 24px;
+}
+
+.relacionados-detalhe {
+  margin-top: 80px;
+  padding-bottom: 70px;
+}
+
 @media (max-width: 992px) {
   .detalhe-makita {
     gap: 35px;
+  }
+}
+@media (max-width: 576px) {
+  .relacionados-detalhe {
+    padding-bottom: 40px;
   }
 }
 @media (max-width: 470px) {
