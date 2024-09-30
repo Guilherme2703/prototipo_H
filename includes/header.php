@@ -40,14 +40,17 @@
                                 <a class="nav-link px-0 mx-md-3" href="loja.php">Loja</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link px-0" href="produto-detalhe.php">Produto</a>
+                                <a class="nav-link px-0 " href="produto-detalhe.php">Produto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 mx-md-3" href="carrinho.php">Carinho</a>
                             </li>
                         </ul>
                   </div>
                   <div class="d-flex align-items-center">
                         <i class="bi bi-currency-dollar">0,00</i>
                         <p class="mb-0 mx-3">0 itens</p>
-                        <a href="#"><i class="bi bi-bag-plus-fill"></i></a>
+                        <a href="carrinho.php"><i class="bi bi-bag-plus-fill"></i></a>
                   </div>
                 </div>
             </nav>
