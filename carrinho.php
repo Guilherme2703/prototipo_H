@@ -46,6 +46,39 @@
                 </div>
             </div>
         </section>
+
+        <!-- Total Carrinho -->
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-6">
+                        <h2 class="mb-4 titulo-compra">Total do carrinho</h2>
+                        <div class="bg-white total-carrinho">
+                            <div class="row">
+                                <h3 class="col-3">Subtotal</h3>
+                                <p class="col-8">400 R$</p>
+                            </div>
+                            <div class="row my-5">
+                                <h3 class="col-3">Envio</h3>
+                                <p class="col-8">Envio grátis 
+                                   As opçõesde envio serão 
+                                   atualizadas durante a finalização da compra <br>
+                                   <a href="#">Calcular custos de envio</a>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <h3 class="col-3">Total</h3>
+                                <p class="col-8">400 R$</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3 mb-5">
+                            <a href="#" class="btn-card text-center w-100">Finalizar a compra</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
